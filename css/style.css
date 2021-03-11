@@ -1,0 +1,117 @@
+html{
+font-size: 100%;
+
+}
+.wf-notosansjapanese {
+   font-family: "Noto Sans JP"; }
+
+
+
+header{
+   height: 150px;
+   background-color: #fabf64;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   font-size: 62px;
+ 
+} 
+
+
+.title{
+   margin-left: 62px;
+   
+}
+
+#content{
+   line-height: 2.4;
+}
+
+#put{
+   display: flex;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 62px;
+   align-items: center;
+}
+/* .item-1{
+   display: flex;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+} */
+
+.memo{
+   
+   display: flex;
+}
+
+#text{
+  font-size: larger;
+}
+
+#send{
+   margin-left: 62px;
+   font-size: large;
+   background-color: #F37053;
+   color:#FFF;
+   border-radius: 5px;
+   padding: 3px 6px;
+   margin: 18px;
+}
+
+.output{
+   margin-top: 62px;
+   display: flex;
+justify-content: center;
+/* align-items: center; */
+/* background-color: aqua; */
+/* height: 500px; */
+/* width: 500px; */
+/* border-radius: 25%; */
+line-height: 1.85rem;
+
+
+}
+#output2{
+   margin-left: 100px;
+   margin-right: 100px;
+}
+#output4{
+   margin-left: 100px;
+   margin-right: 100px;
+}
+
+.ub{
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 200px;
+}
+
+button#delet {
+   font-size: large;
+   background-color: #F37053;
+   color:#FFF;
+   border-radius: 5px;
+   padding: 3px 6px;
+   margin: 18px;
+}
+button#button-color {
+   font-size: large;
+   background-color: #F37053;
+   color:#FFF;
+   border-radius: 5px;
+   padding: 3px 6px;
+   margin: 18px;
+}
+
+/* button:hover{ */
+   /* color: #fdbf64 */
+   button:hover {
+      color: #007db9;;
+      box-shadow: none;
+      background: #fff;
+      transform: translate3d(0, 5px, 0);
+    }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>体調管理表</title>
+  <link rel='stylesheet' href='css/reset.css'>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+  <link rel='stylesheet' href='css/style.css'>
+</head>
+
+<body>
+<header>
+  <div class="title">体調管理表</div>
+<h1></h1>
+</header>
+
+<div id="content">
+  
+  
+  <div id="put">
+    
+    <div>日付</div>
+    <input type="date" name=""  id="date" >
+    
+    <div>起床時間</div>
+    <input type="time" name=""  id="bed-time" >
+    <div>就寝時間</div>
+    <input type="time" name=""  id="wakeup-time" >
+    
+    <div class="memo">
+      <div class="text">体温</div>
+      <textarea name="" id="text" cols="5" rows="1"> . </textarea>
+    </div>
+    
+    <button id="send">記入</button>
+  </div>
+  
+  <div>
+    <!-- 送信ボタン -->
+  </div>
+  <div>
+
+  </div>
+    
+  
+  <div class="output">
+    <!-- <input type="checkbox" name="" id="check">
+    <label for="check"></label> -->
+    <table border="1">
+      <th>
+    <div id="output1"></div>
+    </th>
+    <th>
+      <div id="output2"></div>
+    </th>
+      <th>
+      <div id="output3"></div>
+    </th>
+      <th>
+      <div id="output4"></div>
+  </th>
+  </table>
+  </div>
+  
+  <div class="ub">
+  <button id="delet">消去</button>
+  <button id="button-color">色を変える</button>
+</div>
+
+
+</div>
+
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase.js"></script>
+
+  <script src='js/app.js'> </script>
+
+</body>
+
+</html>
